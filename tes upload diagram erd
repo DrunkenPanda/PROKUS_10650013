@@ -1,0 +1,19 @@
+Global setup:
+ Set up git
+  git config --global user.name "dipo"
+  git config --global user.email adipoprakoso@gmail.com
+      
+Next steps:
+  mkdir prokus 
+  cd prokus
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com/Drunkenpanda/diagramerd.git
+  git push -u origin master
+      
+Existing Git Repo?
+  cd existing_git_repo
+  git remote add origin git@github.com/Drunkenpanda/diagramerd.git
+  git push -u origin master 
